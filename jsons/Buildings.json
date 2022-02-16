@@ -1,0 +1,88 @@
+[
+
+//National Wonders
+
+{
+		"name": "Circus Maximus",
+		"cost": 145,
+		"happiness": 5,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Colosseum] in all cities", "Cost increases by [10] per owned city"],
+		"requiredTech": "Horseback Riding"
+	},
+{
+		"name": "National College",
+		"cost": 145,
+		"science": 3,
+		"culture": 1,
+		"isNationalWonder": true,
+		"percentStatBonus": {"science": 50},
+		"uniques": ["Requires a [Library] in all cities", "Cost increases by [10] per owned city"],
+		"requiredTech": "Philosophy"
+	},
+{
+		"name": "National Epic",
+		"cost": 145,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Monument] in all cities", "[+25]% great person generation [in this city]", "Cost increases by [10] per owned city"],
+		"requiredTech": "Drama and Poetry"
+	},
+{
+		"name": "Heroic Epic",
+		"cost": 145,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Barracks] in all cities", "All newly-trained [non-air] units [in this city] receive the [Morale] promotion",
+			"Cost increases by [10] per owned city"],
+		"requiredTech": "Iron Working"
+	},
+{
+		"name": "Grand Temple",
+		"cost": 145,
+		"culture": 1,
+		"faith": 8,
+		"uniques": ["Requires a [Temple] in all cities", "Cost increases by [10] per owned city",
+			"[+100]% Natural religion spread [in this city]", "Hidden when religion is disabled", "Can only be built [in holy cities]"],
+		"requiredTech": "Theology",
+		"isNationalWonder": true
+	},
+{
+		"name": "National Treasury",
+		"cost": 145,
+		"gold": 8,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Market] in all cities", "Cost increases by [10] per owned city"],
+		"requiredTech": "Guilds"
+	},
+{
+		"name": "Oxford University",
+		"cost": 145,
+		"science": 3,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [University] in all cities", "Free Technology", "Cost increases by [10] per owned city"],
+		"requiredTech": "Education"
+	},
+{
+		"name": "Ironworks",
+		"cost": 145,
+		"production": 8,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Workshop] in all cities", "Cost increases by [10] per owned city"],
+		"requiredTech": "Machinery"
+	},
+{
+		"name": "Hermitage",
+		"cost": 145,
+		"percentStatBonus": {"culture": 50},
+		"culture": 5,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Opera House] in all cities", "Cost increases by [10] per owned city"],
+		"requiredTech": "Architecture"
+	},
+
+]
